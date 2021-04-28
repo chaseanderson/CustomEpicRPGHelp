@@ -31,7 +31,7 @@ async def on_message(message):
 
   if(str(message.channel) == 'epicrpg'):
     await epicrpg_channel(message)
-  elif(str(message.channel) == 'epicrpg-jail'):
+  elif(str(message.channel) == 'admin-training'):
     await epicrpg_jail_channel(message)
 
   if message.content == 'raise-exception':
